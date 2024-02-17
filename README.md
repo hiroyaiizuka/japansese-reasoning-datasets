@@ -28,13 +28,13 @@
 
 ### 結果
 
-https://chainforge.ai/play/?f=3fni6zh8jwmc4
-![alt text](<CleanShot 2024-02-17 at 10.06.21.png>)
+https://chainforge.ai/play/?f=2swixxn0e5c0s
+![alt text](<CleanShot 2024-02-18 at 04.28.58.png>)
 
-モデル: GPT-3.5-Turbo-1106
+モデル: GPT-3.5-Turbo-0125
 temperature:0
 
-正解率 80%であった
+正解率 65%であった
 
 ## test2.json
 
@@ -49,12 +49,12 @@ test1.json の数学タスクを、小学生用->高校生用に変更したも�
 
 ### 結果
 
-https://chainforge.ai/play/?f=p74iexgsysvy
-![alt text](<CleanShot 2024-02-17 at 10.51.37.png>)
-モデル: GPT-3.5-Turbo-1106
+https://chainforge.ai/play/?f=1nnfynuo81qf5
+![alt text](<CleanShot 2024-02-18 at 04.30.04.png>)
+モデル: GPT-3.5-Turbo-0125
 temperature:0
 
-正解率 60%であった
+正解率 55%であった
 
 ## test3.json
 
@@ -70,9 +70,9 @@ API の費用が気になったり、難しい問題を解かせたいときに�
 
 ### 結果
 
-https://chainforge.ai/play/?f=1xaarqota7skd
-![alt text](<CleanShot 2024-02-17 at 11.06.56.png>)
-モデル: GPT-3.5-Turbo-1106
+https://chainforge.ai/play/?f=1q86wnvio0skd
+![alt text](<CleanShot 2024-02-18 at 04.30.46.png>)
+モデル: GPT-3.5-Turbo-0125
 temperature:0
 
 正解率 13%であった
