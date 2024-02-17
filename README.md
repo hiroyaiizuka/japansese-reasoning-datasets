@@ -15,6 +15,8 @@
 
 そこで、それぞれの推論タスクから、5-10 問ずつピックアップして、推論評価のための統合したデータセットを作る。
 
+なお、各データセットは問題形式が若干異なる。そのため、元データを調整し、5 つの問題から 1 つの選択を選ぶ選択問題に統一する。
+
 ## test1.json
 
 以下の問題を混ぜたデータセット
@@ -33,3 +35,22 @@ https://chainforge.ai/play/?f=3fni6zh8jwmc4
 temperature:0
 
 正解率 80%であった
+
+## test2.json
+
+test1.json の数学タスクを、小学生->大学に変更したもの
+データの内訳は、以下の通り
+
+- [MMLU: high-school-math](https://github.com/nlp-waseda/JMMLU/blob/main/JMMLU/high_school_mathematics.csv): 5 問
+- [MMLU: college-math](https://github.com/nlp-waseda/JMMLU/blob/main/JMMLU/college_mathematics.csv): 5 問
+- [JCommonsenseQA](https://github.com/nlp-waseda/chain-of-thought-ja-dataset/blob/main/dataset/jcommonsenseqa/test.json): 5 問
+- [Last Letter Concatenation](https://github.com/nlp-waseda/chain-of-thought-ja-dataset/blob/main/dataset/last_letter_connection/test.json): 5 問
+
+### 結果
+
+https://chainforge.ai/play/?f=p74iexgsysvy
+![alt text](<CleanShot 2024-02-17 at 10.51.37.png>)
+モデル: GPT-3.5-Turbo-1106
+temperature:0
+
+正解率 60%であった
