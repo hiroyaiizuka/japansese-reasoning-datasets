@@ -29,7 +29,7 @@
 ### 結果
 
 https://chainforge.ai/play/?f=2swixxn0e5c0s
-![alt text](<CleanShot 2024-02-18 at 04.28.58.png>)
+![alt text](<./images/CleanShot 2024-02-18 at 04.28.58.png>)
 
 モデル: GPT-3.5-Turbo-0125
 temperature:0
@@ -50,7 +50,7 @@ test1.json の数学タスクを、小学生用->高校生用に変更したも�
 ### 結果
 
 https://chainforge.ai/play/?f=1nnfynuo81qf5
-![alt text](<CleanShot 2024-02-18 at 04.30.04.png>)
+![alt text](<./images/CleanShot 2024-02-18 at 04.30.04.png>)
 モデル: GPT-3.5-Turbo-0125
 temperature:0
 
@@ -71,7 +71,7 @@ API の費用が気になったり、難しい問題を解かせたいときに�
 ### 結果
 
 https://chainforge.ai/play/?f=1q86wnvio0skd
-![alt text](<CleanShot 2024-02-18 at 04.30.46.png>)
+![alt text](<./images/CleanShot 2024-02-18 at 04.30.46.png>)
 モデル: GPT-3.5-Turbo-0125
 temperature:0
 
@@ -84,9 +84,9 @@ temperature:0
 
 - step2.
   Tabular Data Node に、json ファイルが import されていて、このまま使えます。プロンプトを実行するときは、PromptNode の再生ボタンをクリックしてください。
-  ![alt text](<CleanShot 2024-02-17 at 11.09.39.png>)
+  ![alt text](<./images/CleanShot 2024-02-17 at 11.09.39.png>)
 
 - step3.
   実行結果を確認するときは、Simple Evaluator の再生ボタンを押してください。(①)グラフが表示されたら(②)、y-axis の値を変更すれば(③)、別の視点からグラフを分析できます。
 
-![alt text](<CleanShot 2024-02-17 at 11.10.39.png>)
+![alt text](<./images/CleanShot 2024-02-17 at 11.10.39.png>)
