@@ -54,3 +54,36 @@ https://chainforge.ai/play/?f=p74iexgsysvy
 temperature:0
 
 正解率 60%であった
+
+## test3.json
+
+test1, test2.json の結果から、間違えた問題だけを厳選したタスク
+API の費用が気になったり、難しい問題を解かせたいときに有効なデータセット
+データの内訳は、以下の通り
+
+- [MMLU: high-school-math](https://github.com/nlp-waseda/JMMLU/blob/main/JMMLU/high_school_mathematics.csv): 2 問(test1.json id=9,10)
+- [MMLU: college-math](https://github.com/nlp-waseda/JMMLU/blob/main/JMMLU/college_mathematics.csv): 4 問 (test2.json id=6,7,8,10)
+- [Last Letter Concatenation](https://github.com/nlp-waseda/chain-of-thought-ja-dataset/blob/main/dataset/last_letter_connection/test.json): 2 問(test1.json id=19,20)
+
+### 結果
+
+https://chainforge.ai/play/?f=1xaarqota7skd
+![alt text](<CleanShot 2024-02-17 at 11.06.56.png>)
+モデル: GPT-3.5-Turbo-1106
+temperature:0
+
+正解率 13%であった
+
+## データと ChainForge の使い方
+
+- step1.
+  使いたいデータ(test{number}.json)の ChainForge の url をクリックしてください。
+
+- step2.
+  Tabular Data Node に、json ファイルが import されていて、このまま使えます。プロンプトを実行するときは、PromptNode の再生ボタンをクリックしてください。
+  ![alt text](<CleanShot 2024-02-17 at 11.09.39.png>)
+
+- step3.
+  実行結果を確認するときは、Simple Evaluator の再生ボタンを押してください。グラフが表示されたら、y-axis の値を変更すれば、別の視点からグラフを分析できます。
+
+![alt text](<CleanShot 2024-02-17 at 11.10.39.png>)
