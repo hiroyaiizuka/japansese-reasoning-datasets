@@ -38,7 +38,8 @@ temperature:0
 
 ## test2.json
 
-test1.json の数学タスクを、小学生->大学に変更したもの
+test1.json の数学タスクを、小学生->大学に変更したもの。
+
 データの内訳は、以下の通り
 
 - [MMLU: high-school-math](https://github.com/nlp-waseda/JMMLU/blob/main/JMMLU/high_school_mathematics.csv): 5 問
@@ -57,8 +58,10 @@ temperature:0
 
 ## test3.json
 
-test1, test2.json の結果から、間違えた問題だけを厳選したタスク
-API の費用が気になったり、難しい問題を解かせたいときに有効なデータセット
+test1, test2.json の結果から、間違えた問題だけを厳選したタスク。
+
+API の費用が気になったり、難しい問題を解かせたいときに有効なデータセット。
+
 データの内訳は、以下の通り
 
 - [MMLU: high-school-math](https://github.com/nlp-waseda/JMMLU/blob/main/JMMLU/high_school_mathematics.csv): 2 問(test1.json id=9,10)
@@ -84,6 +87,6 @@ temperature:0
   ![alt text](<CleanShot 2024-02-17 at 11.09.39.png>)
 
 - step3.
-  実行結果を確認するときは、Simple Evaluator の再生ボタンを押してください。グラフが表示されたら、y-axis の値を変更すれば、別の視点からグラフを分析できます。
+  実行結果を確認するときは、Simple Evaluator の再生ボタンを押してください。(①)グラフが表示されたら(②)、y-axis の値を変更すれば(③)、別の視点からグラフを分析できます。
 
 ![alt text](<CleanShot 2024-02-17 at 11.10.39.png>)
