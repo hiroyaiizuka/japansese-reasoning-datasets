@@ -7,7 +7,7 @@
     "choice3": "2197",
     "choice4": "21",
     "choice5": "11",
-    "answer": "8788"
+    "answer": "choice1"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "choice3": "12",
     "choice4": "49",
     "choice5": "120",
-    "answer": "120"
+    "answer": "choice5"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "choice3": "2",
     "choice4": "3",
     "choice5": "4",
-    "answer": "3"
+    "answer": "choice3"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "choice3": "12",
     "choice4": "15",
     "choice5": "18",
-    "answer": "6"
+    "answer": "choice2"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "choice3": "3",
     "choice4": "4",
     "choice5": "5",
-    "answer": "3"
+    "answer": "choice3"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "choice3": "72",
     "choice4": "89",
     "choice5": "97",
-    "answer": "31"
+    "answer": "choice1"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "choice3": "木拓",
     "choice4": "木哉",
     "choice5": "哉村",
-    "answer": "村哉"
+    "answer": "choice2"
   },
   {
     "id": 8,
@@ -77,6 +77,6 @@
     "choice3": "分太",
     "choice4": "分一",
     "choice5": "一分",
-    "answer": "分一"
+    "answer": "choice4"
   }
 ]

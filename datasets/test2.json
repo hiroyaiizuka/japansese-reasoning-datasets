@@ -7,7 +7,7 @@
     "choice3": "0.3",
     "choice4": "0.36",
     "choice5": "0.5",
-    "answer": "0.3"
+    "answer": "choice3"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "choice3": "94.5",
     "choice4": "95",
     "choice5": "96",
-    "answer": "93"
+    "answer": "choice2"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "choice3": "2",
     "choice4": "1",
     "choice5": "8",
-    "answer": "8"
+    "answer": "choice5"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "choice3": "2197",
     "choice4": "21",
     "choice5": "11",
-    "answer": "8788"
+    "answer": "choice1"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "choice3": "12",
     "choice4": "49",
     "choice5": "120",
-    "answer": "120"
+    "answer": "choice5"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "choice3": "2",
     "choice4": "3",
     "choice5": "4",
-    "answer": "3"
+    "answer": "choice4"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "choice3": "12",
     "choice4": "15",
     "choice5": "18",
-    "answer": "6"
+    "answer": "choice2"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "choice3": "3",
     "choice4": "4",
     "choice5": "5",
-    "answer": "3"
+    "answer": "choice3"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "choice3": "5",
     "choice4": "6",
     "choice5": "7",
-    "answer": "7"
+    "answer": "choice5"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "choice3": "72",
     "choice4": "89",
     "choice5": "97",
-    "answer": "31"
+    "answer": "choice1"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "choice3": "マザーボード",
     "choice4": "ハードディスク",
     "choice5": "まな板",
-    "answer": "マザーボード"
+    "answer": "choice3"
   },
   {
     "id": 12,
@@ -117,7 +117,7 @@
     "choice3": "田園",
     "choice4": "地方",
     "choice5": "牧場",
-    "answer": "田園"
+    "answer": "choice3"
   },
   {
     "id": 13,
@@ -127,7 +127,7 @@
     "choice3": "仮眠を取る",
     "choice4": "寝る",
     "choice5": "起きる",
-    "answer": "腰を下ろす"
+    "answer": "choice1"
   },
   {
     "id": 14,
@@ -137,7 +137,7 @@
     "choice3": "流し",
     "choice4": "釘",
     "choice5": "食器棚",
-    "answer": "蛇口"
+    "answer": "choice1"
   },
   {
     "id": 15,
@@ -147,7 +147,7 @@
     "choice3": "中腹",
     "choice4": "山腹",
     "choice5": "洞窟",
-    "answer": "洞窟"
+    "answer": "choice5"
   },
   {
     "id": 16,
@@ -157,7 +157,7 @@
     "choice3": "鳥城",
     "choice4": "城鳥",
     "choice5": "茂城",
-    "answer": "島茂"
+    "answer": "choice1"
   },
   {
     "id": 17,
@@ -167,7 +167,7 @@
     "choice3": "本行",
     "choice4": "昌本",
     "choice5": "行本",
-    "answer": "本行"
+    "answer": "choice3"
   },
   {
     "id": 18,
@@ -177,7 +177,7 @@
     "choice3": "博長",
     "choice4": "長博",
     "choice5": "野博",
-    "answer": "野博"
+    "answer": "choice5"
   },
   {
     "id": 19,
@@ -187,7 +187,7 @@
     "choice3": "木拓",
     "choice4": "木哉",
     "choice5": "哉村",
-    "answer": "村哉"
+    "answer": "choice2"
   },
   {
     "id": 20,
@@ -197,6 +197,6 @@
     "choice3": "分太",
     "choice4": "分一",
     "choice5": "一分",
-    "answer": "分一"
+    "answer": "choice4"
   }
 ]
