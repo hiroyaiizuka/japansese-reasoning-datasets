@@ -28,8 +28,7 @@
 
 ### 結果
 
-https://chainforge.ai/play/?f=3px57hes8uasc
-![alt text](<./images/CleanShot 2024-02-26 at 11.30.24.png>)
+![alt text](<./images/CleanShot 2024-02-27 at 22.08.30.png>)
 
 モデル: GPT-3.5-Turbo-0125
 temperature:0
@@ -49,8 +48,7 @@ test1.json の数学タスクを、小学生用->大学生用に変更したも�
 
 ### 結果
 
-https://chainforge.ai/play/?f=3pj319ytrqio0
-![alt text](<./images/CleanShot 2024-02-26 at 11.34.32.png>)
+![alt text](<./images/CleanShot 2024-02-27 at 22.37.25.png>)
 モデル: GPT-3.5-Turbo-0125
 temperature:0
 
@@ -70,8 +68,7 @@ API の費用が気になったり、難しい問題を解かせたいときに�
 
 ### 結果
 
-https://chainforge.ai/play/?f=2vea436iddogs
-![alt text](<./images/CleanShot 2024-02-26 at 11.36.17.png>)
+![alt text](<./images/CleanShot 2024-02-27 at 22.43.30.png>)
 モデル: GPT-3.5-Turbo-0125
 temperature:0
 
@@ -80,13 +77,21 @@ temperature:0
 ## データと ChainForge の使い方
 
 - step1.
-  使いたいデータ(test{number}.json)の ChainForge の url をクリックしてください。
+  chainforge ディレクトリをクリックし、上記で使用したい cforge ファイルをダウンロードしてください。
 
 - step2.
+  chainforge の[url](https://chainforge.ai/play/)を開き、左上の import から、cforge ファイルを選択してください。
+  ![alt text](<./images/CleanShot 2024-02-27 at 22.48.04.png>)
+
+- step3.
   Tabular Data Node に、json ファイルが import されていて、このまま使えます。プロンプトを実行するときは、PromptNode の再生ボタンをクリックしてください。
   ![alt text](<./images/CleanShot 2024-02-17 at 11.09.39.png>)
 
-- step3.
+- step4.
   実行結果を確認するときは、Simple Evaluator の再生ボタンを押してください。(①)グラフが表示されたら(②)、y-axis の値を変更すれば(③)、別の視点からグラフを分析できます。
 
 ![alt text](<./images/CleanShot 2024-02-17 at 11.10.39.png>)
+
+- step5.
+  評価が終了したら、Share するか、Export して、Chainforge をダウンロードしてください。
+  ChainForge は Max10 件しか Share できず、古いものから順番に消されてしまうため、Export を推奨します。
